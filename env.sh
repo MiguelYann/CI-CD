@@ -1,4 +1,4 @@
-$!/bash
+$!/bin/sh
 
 NOM="toto"
 
