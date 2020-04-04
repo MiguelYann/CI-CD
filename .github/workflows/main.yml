@@ -23,9 +23,6 @@ jobs:
       - name: list env
         run: ./env.sh
 
-      - name: list env shell
-        shell: ./env.sh
-
       - name: Install packages
         run: npm install
 
