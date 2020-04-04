@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: First CI on Github
+name: Build
 
 on:
   push:
