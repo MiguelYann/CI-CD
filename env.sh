@@ -1,6 +1,5 @@
-$!/bin/sh
+#!/bin/sh
 
-NOM="toto"
+export NOM="toto"
 
-echo "$NOM Les variables d'environnement"
-env
+env | grep NOM && echo "My fake env var is set" 
